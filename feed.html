@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="data:,">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>SafeSpace Feed</title>
+</head>
+<body>
+    <h2>Your Mood:</h2>
+    <p id="currentMood"></p>
+
+    <textarea
+      id="postText"
+      placeholder="You can share anything here. You're safe and anonymous."
+      rows="4"
+      cols="40"
+    ></textarea>
+
+    <br><br>
+    <button id="postBtn">Post</button>
+
+    <hr>
+
+    <h3>Community Feed</h3>
+    <!--<div id="feed"></div>-->
+    <div id="posts"></div>
+
+
+    <script type="module" src="feed.js"></script>
+</body>
+</html>
