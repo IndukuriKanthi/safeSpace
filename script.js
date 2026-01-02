@@ -4,7 +4,7 @@ import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/1
 
 // Your Firebase config (PASTED FROM FIREBASE)
 const firebaseConfig = {
-  apiKey: "AIzaSyCjszAKobObSencoB6xfRm8vKSgTh9lE6w",
+  apiKey: "YOUR_API_KEY",
   authDomain: "safespace-e4b6b.firebaseapp.com",
   projectId: "safespace-e4b6b",
   storageBucket: "safespace-e4b6b.firebasestorage.app",
@@ -29,4 +29,5 @@ signInAnonymously(auth)
 window.selectMood = function (mood) {
   localStorage.setItem("userMood", mood);
   window.location.href = "feed.html";
+
 };
