@@ -151,7 +151,7 @@ Return ONLY one word: low, medium, or high.
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBL4jUli1n8WnPI12cwK-U-MwpNbI_DbXM",
+  apiKey: "YOUR_API_KEY,
   authDomain: "safespace-32f29.firebaseapp.com",
   projectId: "safespace-32f29",
   storageBucket: "safespace-32f29.firebasestorage.app",
@@ -398,3 +398,4 @@ onSnapshot(q, (snapshot) => {
     postsDiv.appendChild(post);
   });
 });
+
